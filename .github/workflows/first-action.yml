@@ -1,0 +1,14 @@
+name: First workflow
+
+on: [workflow_dispatch]
+
+jobs:
+  first-job:
+    runs-on: ubuntu-latests
+    name: First name
+    steps:
+      - name: Print greetings
+        run: echp "Hello Worlp"
+      
+      - name: Print goodbay
+        run: echp "Bye"    
